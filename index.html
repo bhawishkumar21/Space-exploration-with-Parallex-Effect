@@ -1,11 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Space Exploration</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
+  <div id="preloader"></div>
+  <nav>
+    <div class="nav-links">
+      <ul>
+        <li><a href="https://www.linkedin.com/in/adil-khan-214199335/"><img src="images/linkedin.png"
+              alt="Linkedin" /></a></li>
+        <li><a href="https://www.facebook.com/adil.khan.722134/"><img src="images/facebook.png" alt="facebook" /></a>
+        </li>
+        <li><a href="contact.html" class="contact-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="sectionone" class="screen">
+    <div class="swipe-icon">
+      <p class="info-swill">SWIPE</p>
+      <img src="./images/swipe-icon.svg" alt="Swipe Down" />
+    </div>
+    <div class="scroll-icon">
+      <p class="info-scroll">SCROLL</p>
+      <img src="./images/ScrollIcon.svg" alt="Scroll Down" />
+    </div>
+    <div data-depth="0.1" class="text">
+      <h1>Let's Start</h1>
+    </div>
+    <div id="scene">
+      <div data-depth="0.1" class="bg">
+        <img src="images/background.png" alt="" />
+      </div>
+      <div data-depth="0.2" class="rock1">
+        <img src="images/rock.png" alt="" />
+      </div>
+      <div data-depth="1.2" class="earth">
+        <img src="images/earth.png" alt="" />
+      </div>
+      <div data-depth="0.4" class="mid">
+        <img src="images/mid.png" alt="" />
+      </div>
+      <div data-depth="0.1" class="fore">
+        <img src="images/foreground.png" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section id="second">
+    <div class="bg2">
+      <img src="images/background.png" />
+    </div>
+    <img src="images/stars.png" id="stars" alt="" />
+    <img src="images/moon.png" id="moon" />
+
+    <img src="images/mid.png" id="mountains-behind" />
+    <h2 id="text2">Welcome! Let's Start,<br> Exploring the <br>Solar System</h2>
+    <!--   <img src="images/mountains_front.png" id="mountains-front" /> -->
+  </section>
+
+  <section id="third">
+
+    <div class="container">
+      <div class="planet">
+        <img src="./images/mercury.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>1. Mercury</h2>
+        </div>
+        <div class="details">
+          <p>Mercury is the smallest and innermost planet in our solar system, orbiting closest to the Sun at a distance
+            of about 57.9 million kilometers. Despite its proximity to the Sun, it isn’t the hottest planet—Venus holds
+            that title due to its thick atmosphere. Mercury has a very thin atmosphere, called an exosphere, which
+            cannot trap heat, causing extreme temperature variations between day and night. The planet completes an
+            orbit around the Sun in just 88 Earth days, but due to its slow rotation, one full day (from sunrise to
+            sunrise) lasts about 176 Earth days. Its surface is rocky and heavily cratered, resembling our Moon, and it
+            has a large iron core that contributes to a weak magnetic field. Mercury has no moons and has been explored
+            by NASA’s Mariner 10 and MESSENGER missions, with the European-Japanese BepiColombo mission currently on its
+            way for further study.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>87 Earth Days</span>
+          </h5>
+          <h5>MOONS: <span>None</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="fourth">
+
+    <div class="container">
+      <div class="planet">
+        <img src="./images/venus.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>2. Venus</h2>
+        </div>
+        <div class="details">
+          <p>Venus is the second planet in our solar system and is often called Earth's "sister planet" because of its
+            similar size and composition. However, it has a thick atmosphere made mostly of carbon dioxide, with clouds
+            of sulfuric acid, making it the hottest planet—even hotter than Mercury—reaching surface temperatures of
+            around 465°C (869°F). Venus rotates very slowly and in the opposite direction of most planets, meaning the
+            Sun rises in the west and sets in the east. One day on Venus (one full rotation) takes about 243 Earth days,
+            while a year is only 225 Earth days. Its surface is rocky and volcanic, hidden beneath dense clouds that
+            trap heat through a strong greenhouse effect. Despite being inhospitable, Venus has been studied by many
+            missions, including NASA’s Magellan and Europe’s Venus Express, revealing a fascinating but extreme
+            environment.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>224 Earth days</span>
+          </h5>
+          <h5>KNOWN MOONS: <span>None</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="fifth">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/earth1.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>3. Earth</h2>
+        </div>
+        <div class="details">
+          <p>Earth is the third planet from the Sun and the only known planet to support life. It has a balanced
+            atmosphere made up mostly of nitrogen and oxygen, which helps regulate temperature and allows living
+            organisms to breathe. About 71% of Earth’s surface is covered by water, making it unique among the planets.
+            Earth has a diameter of about 12,742 kilometers and takes 365.25 days to orbit the Sun, creating one year.
+            It rotates once every 24 hours, giving us day and night. Earth's magnetic field and atmosphere protect it
+            from harmful solar radiation and meteoroids. It has one natural satellite, the Moon, which affects ocean
+            tides and stabilizes the planet's tilt. With a diverse climate and rich ecosystems, Earth is home to
+            millions of species and continues to be a dynamic and ever-changing world.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>365 days</span>
+          </h5>
+          <h5>KNOWN MOONS: <span>1</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="sixth">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/mars.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>4. Mars</h2>
+        </div>
+        <div class="details">
+          <p>Mars is the fourth planet from the Sun and is often called the "Red Planet" because of its reddish
+            appearance, which comes from iron oxide (rust) on its surface. It is a cold, rocky planet with a thin
+            atmosphere made mostly of carbon dioxide. Mars has the largest volcano in the solar system, Olympus Mons,
+            and a huge canyon called Valles Marineris. A day on Mars, called a "sol," is just a little over 24 hours,
+            and it takes 687 Earth days to complete one orbit around the Sun. Mars has two small moons, Phobos and
+            Deimos. Scientists are very interested in Mars because it once had liquid water and might have supported
+            microbial life. Many missions, like NASA’s Perseverance rover, are exploring the planet to learn more about
+            its past and whether humans could live there in the future.
+
+          </p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>686 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>2</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="seventh">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/jupiter.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>5. Jupiter</h2>
+        </div>
+        <div class="details">
+          <p>Jupiter is the fifth planet from the Sun and the largest planet in our solar system. It is a gas giant,
+            made mostly of hydrogen and helium, and has no solid surface. Jupiter is famous for its Great Red Spot, a
+            giant storm larger than Earth that has been raging for centuries. It has a very strong magnetic field and at
+            least 95 known moons, including Ganymede, the largest moon in the solar system. Jupiter rotates very
+            quickly—one day lasts just about 10 hours—but it takes about 12 Earth years to orbit the Sun. The planet has
+            colorful bands and swirling clouds caused by strong winds and storms in its atmosphere. Because of its
+            massive size and strong gravity, Jupiter plays an important role in protecting the inner planets by pulling
+            in comets and asteroids that might otherwise hit Earth.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>4,332 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>67</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="eighth">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/saturn.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>6. Saturn</h2>
+        </div>
+        <div class="details">
+          <p>Saturn is the sixth planet from the Sun and the second-largest planet in the solar system, known for its
+            stunning and complex ring system. These rings are made of ice, rock, and dust particles and are one of the
+            most beautiful features in the solar system. Like Jupiter, Saturn is a gas giant, composed mainly of
+            hydrogen and helium, with no solid surface. It has a fast rotation—one day lasts about 10.7 hours—and it
+            takes about 29.5 Earth years to complete one orbit around the Sun. Saturn has over 140 known moons,
+            including Titan, which is larger than Mercury and has a thick atmosphere. Despite its large size, Saturn is
+            the least dense planet—it would float in water if a big enough ocean existed! Scientists continue to study
+            Saturn to understand more about its atmosphere, rings, and moons.
+
+          </p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT PERIOD:
+            <span>10,755 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>62</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ninth">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/uranus.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>7. Uranus</h2>
+        </div>
+        <div class="details">
+          <p>Uranus is the seventh planet from the Sun and is known for its unique sideways rotation—it spins on its
+            side, with an axial tilt of about 98 degrees. This makes its seasons extremely long and unusual. Uranus is
+            an ice giant, made mostly of icy materials like water, methane, and ammonia, along with hydrogen and helium.
+            The methane in its atmosphere gives the planet its bluish-green color. It is very cold, with temperatures
+            dropping to around -224°C (-371°F), making it one of the coldest planets in the solar system. Uranus takes
+            about 17 hours to complete a day and 84 Earth years to orbit the Sun. It has 13 faint rings and 27 known
+            moons, named mostly after characters from the works of Shakespeare and Alexander Pope. Uranus is mysterious
+            and still not fully understood, as it has only been visited once—by NASA’s Voyager 2 in 1986.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>30,687 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>27</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tenth">
+    <div class="container">
+      <div class="planet">
+        <img src="./images/neptune.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>8. Neptune</h2>
+        </div>
+        <div class="details">
+          <p>Neptune is the eighth and farthest planet from the Sun in our solar system. It is a cold, dark ice giant,
+            known for its deep blue color, which comes from methane in its atmosphere. Neptune is famous for having the
+            strongest winds in the solar system, reaching speeds of over 2,000 km/h (1,200 mph). It has a thick
+            atmosphere made of hydrogen, helium, and methane, and it experiences giant storms, including one known as
+            the Great Dark Spot, similar to Jupiter’s Great Red Spot. A day on Neptune lasts about 16 hours, while it
+            takes about 165 Earth years to complete one orbit around the Sun. Neptune has 14 known moons, with Triton
+            being the largest—it orbits the planet in the opposite direction, suggesting it may have been captured. The
+            planet was discovered in 1846 and has only been visited by Voyager 2, which flew by in 1989.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>60,190 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>14</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="eleventh">
+    <div class="container">
+      <div class="planet">
+        <img class="pluto" src="./images/neptune.png" alt="">
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h2>9. Pluto</h2>
+        </div>
+        <div class="details">
+          <p>Pluto is a dwarf planet located in the Kuiper Belt, a region beyond Neptune filled with icy bodies and
+            remnants from the early solar system. Once considered the ninth planet, Pluto was reclassified as a dwarf
+            planet by the International Astronomical Union in 2006 because it does not clear its orbit of other debris.
+            Pluto is small—about one-sixth the width of Earth—and has a rocky, icy surface with mountains, valleys, and
+            possible underground oceans. It has a thin atmosphere made mostly of nitrogen, which expands when it’s
+            closer to the Sun and freezes when it moves farther away. A year on Pluto is very long—it takes about 248
+            Earth years to orbit the Sun, and one day lasts about 6.4 Earth days. Pluto has five known moons, the
+            largest being Charon, which is so big compared to Pluto that they’re often called a double dwarf planet
+            system. NASA’s New Horizons mission provided the first close-up images of Pluto in 2015, revealing a
+            surprisingly active and complex world.</p>
+        </div>
+        <div class="orbit-details">
+          <h5>
+            ORBIT:
+            <span>90,582 Earth days</span>
+          </h5>
+          <h5>MOONS: <span>5</span></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="last">
+    <div class="github">
+      <img src="/images/githubicon.svg" alt="">
+      <button class="btn"><a href="https://github.com/AdilKhan19" target="_blank">VIEW</a></button>
+    </div>
+    <div class="shootingstar">
+      <div class="star-1">
+        <img src="./images/shootingstar.png" alt="">
+      </div>
+      <div class="star-2">
+        <img src="./images/shootingstar.png" alt="">
+      </div>
+      <div class="star-3">
+        <img src="./images/shootingstar.png" alt="">
+      </div>
+      <div class="star-4">
+        <img src="./images/shootingstar.png" alt="">
+      </div>
+    </div>
+    <div class="bg3">
+      <img src="./images/background.png" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-list">
+        <ul>
+          <li><a href="https://www.linkedin.com/in/adil-khan-214199335/"><img src="images/linkedin.png"
+                alt="Linkedin" /></a></li>
+          <li><a href="https://www.facebook.com/adil.khan.722134/"><img src="images/facebook.png" alt="facebook" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p></p>
+        <p>Copyright &copy;</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="index.js" type="text/javascript"></script>
 </body>
+
 </html>
